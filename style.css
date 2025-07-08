@@ -127,11 +127,16 @@ label{
     bottom: 30px;
 }
 .fraca{
-height: 30px;
-width: 25%;
-background-color: #E71B32;
-position: relative;
-bottom: 30px;
+    width: 25%;
+    background-color: #E71B32; 
+}
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
+.forte{
+    background-color: #00FF85;
+    width: 100%;
 }
 
 .parametro-senha-textos{
@@ -139,10 +144,9 @@ bottom: 30px;
     justify-content: space-between;
 }
 
-.media{
-height: 30px;
-width: 50%;
-background-color: #FAF408;
-position: relative;
-bottom: 30px;
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
